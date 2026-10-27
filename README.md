@@ -1,2 +1,2 @@
-# VR_101
+# Proyecto Final para REALIDAD VIRTUAL Y REALIDAD AUMENTADA
 
