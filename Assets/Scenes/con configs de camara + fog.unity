@@ -1076,7 +1076,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: lever but actually
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7087229294343559132, guid: a84c490be5e3b704abf75d8560cf22a8, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
