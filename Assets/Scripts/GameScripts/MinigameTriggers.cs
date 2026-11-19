@@ -8,4 +8,5 @@ public class MinigameTriggers : ScriptableObject
     public bool valveRotate = false;
     public bool pushLever = false;
     public bool powerButton = false;
+    public bool simonSays = false;
 }

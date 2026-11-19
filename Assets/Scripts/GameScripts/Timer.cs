@@ -6,7 +6,7 @@ public class Timer : MonoBehaviour
     private float timePassed = 0;
     private int randomNumber;
     private bool timerRunning = true;
-    public MinigameTriggers MinigameTriggers;
+    public MinigameTriggers triggers;
 
     // Update is called once per frame
     void Update()
@@ -34,27 +34,46 @@ public class Timer : MonoBehaviour
             switch (randomNumber)
             {
                 case 0:
-                    MinigameTriggers.slappyHand = true;
-                    Debug.Log(MinigameTriggers.slappyHand + " Slappy hand");
+                    if (!triggers.slappyHand)
+                    {
+                        triggers.slappyHand = true;
+                        Debug.Log(triggers.slappyHand + " Slappy hand");
+                    }
                     break;
                 case 1:
-                    MinigameTriggers.fuseBox = true;
-                    Debug.Log(MinigameTriggers.fuseBox + " fuseBox");
+                    if (!triggers.fuseBox)
+                    {
+                        triggers.fuseBox = true;
+                        Debug.Log(triggers.fuseBox + " fuseBox");
+                    }
                     break;
                 case 2:
-                    MinigameTriggers.valveRotate = true;
-                    Debug.Log(MinigameTriggers.valveRotate + " valveRotate");
+                    if (!triggers.valveRotate)
+                    {
+                        triggers.valveRotate = true;
+                        Debug.Log(triggers.valveRotate + " valveRotate");
+                    }
                     break;
                 case 3:
-                    MinigameTriggers.pushLever = true;
-                    Debug.Log(MinigameTriggers.pushLever + " pushLever");
+                    if (!triggers.pushLever)
+                    {
+                        triggers.pushLever = true;
+                        Debug.Log(triggers.pushLever + " pushLever");
+                    }
                     break;
                 case 4:
-                    MinigameTriggers.powerButton = true;
-                    Debug.Log(MinigameTriggers.powerButton + " powerButton");
+                    if (!triggers.powerButton)
+                    {
+                        triggers.powerButton = true;
+                        Debug.Log(triggers.powerButton + " powerButton");
+                    }
                     break;
                 case 5:
-                    //lucky boi, nada se activo, descansa un poco
+                    if (!triggers.simonSays)
+                    {
+                        triggers.simonSays = true;
+                        Debug.Log(triggers.powerButton + " powerButton");
+                    }
                     break;
                 default:
                     break;
@@ -66,6 +85,12 @@ public class Timer : MonoBehaviour
     }
     private void OnTimerEnd()
     {
+        triggers.slappyHand = false;
+        triggers.fuseBox =false;
+        triggers.valveRotate =false;
+        triggers.pushLever =false;
+        triggers.powerButton =false;
+        triggers.simonSays =false;
         Debug.Log("Timer ended");
     }
 }

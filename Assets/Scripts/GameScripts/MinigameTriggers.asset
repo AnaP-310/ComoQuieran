@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6a1661149687f6478d613f9dea31274, type: 3}
   m_Name: MinigameTriggers
   m_EditorClassIdentifier: Assembly-CSharp::MinigameTriggers
-  slapHand: 0
+  slappyHand: 0
   fuseBox: 0
   valveRotate: 0
   pushLever: 0
   powerButton: 0
+  simonSays: 0
