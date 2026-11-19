@@ -1,0 +1,1554 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &5518427390291179386
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: f9df1eccc7f56cd48a61ab34638529d0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.96
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f9df1eccc7f56cd48a61ab34638529d0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.11
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f9df1eccc7f56cd48a61ab34638529d0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 18.182
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f9df1eccc7f56cd48a61ab34638529d0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f9df1eccc7f56cd48a61ab34638529d0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f9df1eccc7f56cd48a61ab34638529d0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f9df1eccc7f56cd48a61ab34638529d0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f9df1eccc7f56cd48a61ab34638529d0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f9df1eccc7f56cd48a61ab34638529d0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f9df1eccc7f56cd48a61ab34638529d0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f9df1eccc7f56cd48a61ab34638529d0, type: 3}
+      propertyPath: m_Name
+      value: simonsays
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: f9df1eccc7f56cd48a61ab34638529d0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 681280217170756434}
+    - targetCorrespondingSourceObject: {fileID: 7122824433567704195, guid: f9df1eccc7f56cd48a61ab34638529d0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8841579190449228839}
+    - targetCorrespondingSourceObject: {fileID: 7122824433567704195, guid: f9df1eccc7f56cd48a61ab34638529d0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1244642380561834703}
+    - targetCorrespondingSourceObject: {fileID: 7122824433567704195, guid: f9df1eccc7f56cd48a61ab34638529d0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8310964208647230675}
+    - targetCorrespondingSourceObject: {fileID: 7122824433567704195, guid: f9df1eccc7f56cd48a61ab34638529d0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3080503045974156351}
+    - targetCorrespondingSourceObject: {fileID: -3256441379364333673, guid: f9df1eccc7f56cd48a61ab34638529d0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 9178212053309993319}
+    - targetCorrespondingSourceObject: {fileID: -3256441379364333673, guid: f9df1eccc7f56cd48a61ab34638529d0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2421834923112635608}
+    - targetCorrespondingSourceObject: {fileID: -3256441379364333673, guid: f9df1eccc7f56cd48a61ab34638529d0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8892061337201065902}
+    - targetCorrespondingSourceObject: {fileID: -3256441379364333673, guid: f9df1eccc7f56cd48a61ab34638529d0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5564105103750126654}
+    - targetCorrespondingSourceObject: {fileID: 8240352520192460844, guid: f9df1eccc7f56cd48a61ab34638529d0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1867821633160785231}
+    - targetCorrespondingSourceObject: {fileID: 8240352520192460844, guid: f9df1eccc7f56cd48a61ab34638529d0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3312076113856504598}
+    - targetCorrespondingSourceObject: {fileID: 8240352520192460844, guid: f9df1eccc7f56cd48a61ab34638529d0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3241104389051992896}
+    - targetCorrespondingSourceObject: {fileID: 8240352520192460844, guid: f9df1eccc7f56cd48a61ab34638529d0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1609987331661767357}
+    - targetCorrespondingSourceObject: {fileID: -122287861198808437, guid: f9df1eccc7f56cd48a61ab34638529d0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3376885950001218852}
+    - targetCorrespondingSourceObject: {fileID: -122287861198808437, guid: f9df1eccc7f56cd48a61ab34638529d0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5161509833511982865}
+    - targetCorrespondingSourceObject: {fileID: -122287861198808437, guid: f9df1eccc7f56cd48a61ab34638529d0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 427523685679597242}
+    - targetCorrespondingSourceObject: {fileID: -122287861198808437, guid: f9df1eccc7f56cd48a61ab34638529d0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2665367644294254609}
+    - targetCorrespondingSourceObject: {fileID: -7419088485922932925, guid: f9df1eccc7f56cd48a61ab34638529d0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1984480608509437036}
+    - targetCorrespondingSourceObject: {fileID: -7419088485922932925, guid: f9df1eccc7f56cd48a61ab34638529d0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2927981542016382618}
+    - targetCorrespondingSourceObject: {fileID: -7419088485922932925, guid: f9df1eccc7f56cd48a61ab34638529d0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4746278991237386123}
+    - targetCorrespondingSourceObject: {fileID: -7419088485922932925, guid: f9df1eccc7f56cd48a61ab34638529d0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5170062366477452191}
+    - targetCorrespondingSourceObject: {fileID: 1394151550721956978, guid: f9df1eccc7f56cd48a61ab34638529d0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5525350365308800916}
+    - targetCorrespondingSourceObject: {fileID: 1394151550721956978, guid: f9df1eccc7f56cd48a61ab34638529d0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2335870324161161387}
+    - targetCorrespondingSourceObject: {fileID: 1394151550721956978, guid: f9df1eccc7f56cd48a61ab34638529d0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3668486041244688312}
+    - targetCorrespondingSourceObject: {fileID: 1394151550721956978, guid: f9df1eccc7f56cd48a61ab34638529d0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4804367980886308407}
+    - targetCorrespondingSourceObject: {fileID: 3318643913218879604, guid: f9df1eccc7f56cd48a61ab34638529d0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4385757420060226624}
+    - targetCorrespondingSourceObject: {fileID: 3318643913218879604, guid: f9df1eccc7f56cd48a61ab34638529d0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3889007341169873882}
+    - targetCorrespondingSourceObject: {fileID: 3318643913218879604, guid: f9df1eccc7f56cd48a61ab34638529d0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4423438482072149252}
+    - targetCorrespondingSourceObject: {fileID: 3318643913218879604, guid: f9df1eccc7f56cd48a61ab34638529d0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 510961038249134}
+    - targetCorrespondingSourceObject: {fileID: 1080364373223948076, guid: f9df1eccc7f56cd48a61ab34638529d0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5953606562487974654}
+    - targetCorrespondingSourceObject: {fileID: 1080364373223948076, guid: f9df1eccc7f56cd48a61ab34638529d0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1919161810375606086}
+    - targetCorrespondingSourceObject: {fileID: 1080364373223948076, guid: f9df1eccc7f56cd48a61ab34638529d0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4356575329097725716}
+    - targetCorrespondingSourceObject: {fileID: 1080364373223948076, guid: f9df1eccc7f56cd48a61ab34638529d0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 822766388935251791}
+    - targetCorrespondingSourceObject: {fileID: -1429806573177662830, guid: f9df1eccc7f56cd48a61ab34638529d0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3965289923156278752}
+    - targetCorrespondingSourceObject: {fileID: -1429806573177662830, guid: f9df1eccc7f56cd48a61ab34638529d0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2674566920440961630}
+    - targetCorrespondingSourceObject: {fileID: -1429806573177662830, guid: f9df1eccc7f56cd48a61ab34638529d0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2249965885630105463}
+    - targetCorrespondingSourceObject: {fileID: -1429806573177662830, guid: f9df1eccc7f56cd48a61ab34638529d0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1418178964537109568}
+  m_SourcePrefab: {fileID: 100100000, guid: f9df1eccc7f56cd48a61ab34638529d0, type: 3}
+--- !u!23 &1574639250731818793 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 6435461861702281299, guid: f9df1eccc7f56cd48a61ab34638529d0, type: 3}
+  m_PrefabInstance: {fileID: 5518427390291179386}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2187535182826594541 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -3256441379364333673, guid: f9df1eccc7f56cd48a61ab34638529d0, type: 3}
+  m_PrefabInstance: {fileID: 5518427390291179386}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &9178212053309993319
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2187535182826594541}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.0030000003, y: 0.0032249067, z: 0.0058164448}
+  m_Center: {x: 0, y: 0, z: -0.00000023876783}
+--- !u!114 &2421834923112635608
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2187535182826594541}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a35f6cfbfba9b548aaa00d52cfe8a50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.XR.Interaction.Toolkit::UnityEngine.XR.Interaction.Toolkit.Interactables.XRSimpleInteractable
+  m_InteractionManager: {fileID: 0}
+  m_Colliders: []
+  m_InteractionLayers:
+    m_Bits: 1
+  m_DistanceCalculationMode: 1
+  m_SelectMode: 0
+  m_FocusMode: 1
+  m_CustomReticle: {fileID: 0}
+  m_AllowGazeInteraction: 0
+  m_AllowGazeSelect: 0
+  m_OverrideGazeTimeToSelect: 0
+  m_GazeTimeToSelect: 0.5
+  m_OverrideTimeToAutoDeselectGaze: 0
+  m_TimeToAutoDeselectGaze: 3
+  m_AllowGazeAssistance: 0
+  m_FirstHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FirstSelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastSelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FirstFocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastFocusExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Activated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Deactivated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_StartingHoverFilters: []
+  m_StartingSelectFilters: []
+  m_StartingInteractionStrengthFilters: []
+  m_AutoFindParentInteractableInHierarchy: 0
+  m_ParentInteractableObject: {fileID: 0}
+--- !u!114 &8892061337201065902
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2187535182826594541}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 091e13eba41e49a4f956b0d77d5eb857, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SimonSaysbuttons
+  interactable: {fileID: 2421834923112635608}
+  targetRenderer: {fileID: 3668656111154122963}
+  materialIndex: 0
+  litColor: {r: 1, g: 0.85, b: 0.2, a: 1}
+  errorColor: {r: 1, g: 0.15, b: 0.1, a: 1}
+  successColor: {r: 0.2, g: 1, b: 0.35, a: 1}
+  emissionIntensity: 3
+  audioSource: {fileID: 0}
+  toneClip: {fileID: 0}
+--- !u!114 &5564105103750126654
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2187535182826594541}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 115f1a2a50d85cd4b9d6dad4c95622be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.XR.Interaction.Toolkit::UnityEngine.XR.Interaction.Toolkit.Filtering.XRPokeFilter
+  m_Interactable: {fileID: 2421834923112635608}
+  m_PokeCollider: {fileID: 9178212053309993319}
+  m_PokeConfiguration:
+    m_UseConstant: 1
+    m_ConstantValue:
+      m_PokeDirection: 3
+      m_InteractionDepthOffset: 0
+      m_EnablePokeAngleThreshold: 1
+      m_PokeAngleThreshold: 45
+    m_Variable: {fileID: 0}
+--- !u!1 &2359087987103196648 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -1429806573177662830, guid: f9df1eccc7f56cd48a61ab34638529d0, type: 3}
+  m_PrefabInstance: {fileID: 5518427390291179386}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &3965289923156278752
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2359087987103196648}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.003, y: 0.003224907, z: 0.0058164448}
+  m_Center: {x: -0.000000007450581, y: 0, z: -0.00000023841858}
+--- !u!114 &2674566920440961630
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2359087987103196648}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a35f6cfbfba9b548aaa00d52cfe8a50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.XR.Interaction.Toolkit::UnityEngine.XR.Interaction.Toolkit.Interactables.XRSimpleInteractable
+  m_InteractionManager: {fileID: 0}
+  m_Colliders: []
+  m_InteractionLayers:
+    m_Bits: 1
+  m_DistanceCalculationMode: 1
+  m_SelectMode: 0
+  m_FocusMode: 1
+  m_CustomReticle: {fileID: 0}
+  m_AllowGazeInteraction: 0
+  m_AllowGazeSelect: 0
+  m_OverrideGazeTimeToSelect: 0
+  m_GazeTimeToSelect: 0.5
+  m_OverrideTimeToAutoDeselectGaze: 0
+  m_TimeToAutoDeselectGaze: 3
+  m_AllowGazeAssistance: 0
+  m_FirstHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FirstSelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastSelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FirstFocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastFocusExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Activated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Deactivated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_StartingHoverFilters: []
+  m_StartingSelectFilters: []
+  m_StartingInteractionStrengthFilters: []
+  m_AutoFindParentInteractableInHierarchy: 0
+  m_ParentInteractableObject: {fileID: 0}
+--- !u!114 &2249965885630105463
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2359087987103196648}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 091e13eba41e49a4f956b0d77d5eb857, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SimonSaysbuttons
+  interactable: {fileID: 2674566920440961630}
+  targetRenderer: {fileID: 3209072207075489404}
+  materialIndex: 0
+  litColor: {r: 1, g: 0.85, b: 0.2, a: 1}
+  errorColor: {r: 1, g: 0.15, b: 0.1, a: 1}
+  successColor: {r: 0.2, g: 1, b: 0.35, a: 1}
+  emissionIntensity: 3
+  audioSource: {fileID: 0}
+  toneClip: {fileID: 0}
+--- !u!114 &1418178964537109568
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2359087987103196648}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 115f1a2a50d85cd4b9d6dad4c95622be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.XR.Interaction.Toolkit::UnityEngine.XR.Interaction.Toolkit.Filtering.XRPokeFilter
+  m_Interactable: {fileID: 2674566920440961630}
+  m_PokeCollider: {fileID: 3965289923156278752}
+  m_PokeConfiguration:
+    m_UseConstant: 1
+    m_ConstantValue:
+      m_PokeDirection: 3
+      m_InteractionDepthOffset: 0
+      m_EnablePokeAngleThreshold: 1
+      m_PokeAngleThreshold: 45
+    m_Variable: {fileID: 0}
+--- !u!23 &3209072207075489404 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 6925848287962939654, guid: f9df1eccc7f56cd48a61ab34638529d0, type: 3}
+  m_PrefabInstance: {fileID: 5518427390291179386}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &3336111160239969273 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7122824433567704195, guid: f9df1eccc7f56cd48a61ab34638529d0, type: 3}
+  m_PrefabInstance: {fileID: 5518427390291179386}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &8841579190449228839
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3336111160239969273}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.003, y: 0.0032249065, z: 0.005816445}
+  m_Center: {x: -0.000000007450581, y: 2.3283067e-10, z: 0.00000023841858}
+--- !u!114 &1244642380561834703
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3336111160239969273}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a35f6cfbfba9b548aaa00d52cfe8a50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.XR.Interaction.Toolkit::UnityEngine.XR.Interaction.Toolkit.Interactables.XRSimpleInteractable
+  m_InteractionManager: {fileID: 0}
+  m_Colliders: []
+  m_InteractionLayers:
+    m_Bits: 1
+  m_DistanceCalculationMode: 1
+  m_SelectMode: 0
+  m_FocusMode: 1
+  m_CustomReticle: {fileID: 0}
+  m_AllowGazeInteraction: 0
+  m_AllowGazeSelect: 0
+  m_OverrideGazeTimeToSelect: 0
+  m_GazeTimeToSelect: 0.5
+  m_OverrideTimeToAutoDeselectGaze: 0
+  m_TimeToAutoDeselectGaze: 3
+  m_AllowGazeAssistance: 0
+  m_FirstHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FirstSelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastSelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FirstFocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastFocusExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Activated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Deactivated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_StartingHoverFilters: []
+  m_StartingSelectFilters: []
+  m_StartingInteractionStrengthFilters: []
+  m_AutoFindParentInteractableInHierarchy: 0
+  m_ParentInteractableObject: {fileID: 0}
+--- !u!114 &8310964208647230675
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3336111160239969273}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 091e13eba41e49a4f956b0d77d5eb857, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SimonSaysbuttons
+  interactable: {fileID: 1244642380561834703}
+  targetRenderer: {fileID: 4497896757392090919}
+  materialIndex: 0
+  litColor: {r: 1, g: 0.85, b: 0.2, a: 1}
+  errorColor: {r: 1, g: 0.15, b: 0.1, a: 1}
+  successColor: {r: 0.2, g: 1, b: 0.35, a: 1}
+  emissionIntensity: 3
+  audioSource: {fileID: 0}
+  toneClip: {fileID: 0}
+--- !u!114 &3080503045974156351
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3336111160239969273}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 115f1a2a50d85cd4b9d6dad4c95622be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.XR.Interaction.Toolkit::UnityEngine.XR.Interaction.Toolkit.Filtering.XRPokeFilter
+  m_Interactable: {fileID: 1244642380561834703}
+  m_PokeCollider: {fileID: 8841579190449228839}
+  m_PokeConfiguration:
+    m_UseConstant: 1
+    m_ConstantValue:
+      m_PokeDirection: 3
+      m_InteractionDepthOffset: 0
+      m_EnablePokeAngleThreshold: 1
+      m_PokeAngleThreshold: 45
+    m_Variable: {fileID: 0}
+--- !u!23 &3420842093249782421 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -2023205044114156049, guid: f9df1eccc7f56cd48a61ab34638529d0, type: 3}
+  m_PrefabInstance: {fileID: 5518427390291179386}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &3663941834682428913 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -122287861198808437, guid: f9df1eccc7f56cd48a61ab34638529d0, type: 3}
+  m_PrefabInstance: {fileID: 5518427390291179386}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &3376885950001218852
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3663941834682428913}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.0030000003, y: 0.0032249065, z: 0.0058164448}
+  m_Center: {x: 0, y: -2.3283067e-10, z: -1.1641532e-10}
+--- !u!114 &5161509833511982865
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3663941834682428913}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a35f6cfbfba9b548aaa00d52cfe8a50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.XR.Interaction.Toolkit::UnityEngine.XR.Interaction.Toolkit.Interactables.XRSimpleInteractable
+  m_InteractionManager: {fileID: 0}
+  m_Colliders: []
+  m_InteractionLayers:
+    m_Bits: 1
+  m_DistanceCalculationMode: 1
+  m_SelectMode: 0
+  m_FocusMode: 1
+  m_CustomReticle: {fileID: 0}
+  m_AllowGazeInteraction: 0
+  m_AllowGazeSelect: 0
+  m_OverrideGazeTimeToSelect: 0
+  m_GazeTimeToSelect: 0.5
+  m_OverrideTimeToAutoDeselectGaze: 0
+  m_TimeToAutoDeselectGaze: 3
+  m_AllowGazeAssistance: 0
+  m_FirstHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FirstSelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastSelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FirstFocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastFocusExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Activated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Deactivated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_StartingHoverFilters: []
+  m_StartingSelectFilters: []
+  m_StartingInteractionStrengthFilters: []
+  m_AutoFindParentInteractableInHierarchy: 0
+  m_ParentInteractableObject: {fileID: 0}
+--- !u!114 &427523685679597242
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3663941834682428913}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 091e13eba41e49a4f956b0d77d5eb857, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SimonSaysbuttons
+  interactable: {fileID: 5161509833511982865}
+  targetRenderer: {fileID: 1574639250731818793}
+  materialIndex: 0
+  litColor: {r: 1, g: 0.85, b: 0.2, a: 1}
+  errorColor: {r: 1, g: 0.15, b: 0.1, a: 1}
+  successColor: {r: 0.2, g: 1, b: 0.35, a: 1}
+  emissionIntensity: 3
+  audioSource: {fileID: 0}
+  toneClip: {fileID: 0}
+--- !u!114 &2665367644294254609
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3663941834682428913}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 115f1a2a50d85cd4b9d6dad4c95622be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.XR.Interaction.Toolkit::UnityEngine.XR.Interaction.Toolkit.Filtering.XRPokeFilter
+  m_Interactable: {fileID: 5161509833511982865}
+  m_PokeCollider: {fileID: 3376885950001218852}
+  m_PokeConfiguration:
+    m_UseConstant: 1
+    m_ConstantValue:
+      m_PokeDirection: 3
+      m_InteractionDepthOffset: 0
+      m_EnablePokeAngleThreshold: 1
+      m_PokeAngleThreshold: 45
+    m_Variable: {fileID: 0}
+--- !u!23 &3668656111154122963 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 9114383163806656425, guid: f9df1eccc7f56cd48a61ab34638529d0, type: 3}
+  m_PrefabInstance: {fileID: 5518427390291179386}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &4497896757392090919 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -937072820160311203, guid: f9df1eccc7f56cd48a61ab34638529d0, type: 3}
+  m_PrefabInstance: {fileID: 5518427390291179386}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &4525827955918012246 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8240352520192460844, guid: f9df1eccc7f56cd48a61ab34638529d0, type: 3}
+  m_PrefabInstance: {fileID: 5518427390291179386}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1867821633160785231
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4525827955918012246}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.003, y: 0.0032249065, z: 0.0058164448}
+  m_Center: {x: -0.000000007450581, y: -2.3283067e-10, z: -1.1641532e-10}
+--- !u!114 &3312076113856504598
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4525827955918012246}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a35f6cfbfba9b548aaa00d52cfe8a50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.XR.Interaction.Toolkit::UnityEngine.XR.Interaction.Toolkit.Interactables.XRSimpleInteractable
+  m_InteractionManager: {fileID: 0}
+  m_Colliders: []
+  m_InteractionLayers:
+    m_Bits: 1
+  m_DistanceCalculationMode: 1
+  m_SelectMode: 0
+  m_FocusMode: 1
+  m_CustomReticle: {fileID: 0}
+  m_AllowGazeInteraction: 0
+  m_AllowGazeSelect: 0
+  m_OverrideGazeTimeToSelect: 0
+  m_GazeTimeToSelect: 0.5
+  m_OverrideTimeToAutoDeselectGaze: 0
+  m_TimeToAutoDeselectGaze: 3
+  m_AllowGazeAssistance: 0
+  m_FirstHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FirstSelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastSelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FirstFocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastFocusExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Activated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Deactivated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_StartingHoverFilters: []
+  m_StartingSelectFilters: []
+  m_StartingInteractionStrengthFilters: []
+  m_AutoFindParentInteractableInHierarchy: 0
+  m_ParentInteractableObject: {fileID: 0}
+--- !u!114 &3241104389051992896
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4525827955918012246}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 091e13eba41e49a4f956b0d77d5eb857, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SimonSaysbuttons
+  interactable: {fileID: 3312076113856504598}
+  targetRenderer: {fileID: 5359375984927843437}
+  materialIndex: 0
+  litColor: {r: 1, g: 0.85, b: 0.2, a: 1}
+  errorColor: {r: 1, g: 0.15, b: 0.1, a: 1}
+  successColor: {r: 0.2, g: 1, b: 0.35, a: 1}
+  emissionIntensity: 3
+  audioSource: {fileID: 0}
+  toneClip: {fileID: 0}
+--- !u!114 &1609987331661767357
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4525827955918012246}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 115f1a2a50d85cd4b9d6dad4c95622be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.XR.Interaction.Toolkit::UnityEngine.XR.Interaction.Toolkit.Filtering.XRPokeFilter
+  m_Interactable: {fileID: 3312076113856504598}
+  m_PokeCollider: {fileID: 1867821633160785231}
+  m_PokeConfiguration:
+    m_UseConstant: 1
+    m_ConstantValue:
+      m_PokeDirection: 3
+      m_InteractionDepthOffset: 0
+      m_EnablePokeAngleThreshold: 1
+      m_PokeAngleThreshold: 45
+    m_Variable: {fileID: 0}
+--- !u!1 &4635344935319128619 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: f9df1eccc7f56cd48a61ab34638529d0, type: 3}
+  m_PrefabInstance: {fileID: 5518427390291179386}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &681280217170756434
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4635344935319128619}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 016960755e2b0c04eada012e11fad0c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SimonSaysController
+  puzzleActive: 1
+  autoStartWhenActivated: 1
+  buttons: []
+  useManualSequence: 0
+  manualSequence: 00000000010000000200000003000000
+  firstRoundLength: 1
+  notesPerRound: 1
+  roundsToWin: 4
+  allowRepeatedNotes: 1
+  randomSeed: 0
+  startDelay: 1
+  litDuration: 0.45
+  gapDuration: 0.2
+  feedbackDuration: 0.6
+  pressFlashDuration: 0.25
+  onMistake: 0
+  maxMistakes: 0
+  onPuzzleStarted:
+    m_PersistentCalls:
+      m_Calls: []
+  onRoundStarted:
+    m_PersistentCalls:
+      m_Calls: []
+  onRoundCompleted:
+    m_PersistentCalls:
+      m_Calls: []
+  onMistakeMade:
+    m_PersistentCalls:
+      m_Calls: []
+  onPuzzleSolved:
+    m_PersistentCalls:
+      m_Calls: []
+  onPuzzleFailed:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!1 &4786022199948953686 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1080364373223948076, guid: f9df1eccc7f56cd48a61ab34638529d0, type: 3}
+  m_PrefabInstance: {fileID: 5518427390291179386}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &5953606562487974654
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4786022199948953686}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.003, y: 0.0032249065, z: 0.005816445}
+  m_Center: {x: 0.000000014901161, y: 2.3283067e-10, z: 0.00000023841858}
+--- !u!114 &1919161810375606086
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4786022199948953686}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a35f6cfbfba9b548aaa00d52cfe8a50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.XR.Interaction.Toolkit::UnityEngine.XR.Interaction.Toolkit.Interactables.XRSimpleInteractable
+  m_InteractionManager: {fileID: 0}
+  m_Colliders: []
+  m_InteractionLayers:
+    m_Bits: 1
+  m_DistanceCalculationMode: 1
+  m_SelectMode: 0
+  m_FocusMode: 1
+  m_CustomReticle: {fileID: 0}
+  m_AllowGazeInteraction: 0
+  m_AllowGazeSelect: 0
+  m_OverrideGazeTimeToSelect: 0
+  m_GazeTimeToSelect: 0.5
+  m_OverrideTimeToAutoDeselectGaze: 0
+  m_TimeToAutoDeselectGaze: 3
+  m_AllowGazeAssistance: 0
+  m_FirstHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FirstSelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastSelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FirstFocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastFocusExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Activated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Deactivated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_StartingHoverFilters: []
+  m_StartingSelectFilters: []
+  m_StartingInteractionStrengthFilters: []
+  m_AutoFindParentInteractableInHierarchy: 0
+  m_ParentInteractableObject: {fileID: 0}
+--- !u!114 &4356575329097725716
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4786022199948953686}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 091e13eba41e49a4f956b0d77d5eb857, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SimonSaysbuttons
+  interactable: {fileID: 1919161810375606086}
+  targetRenderer: {fileID: 8974776445457849678}
+  materialIndex: 0
+  litColor: {r: 1, g: 0.85, b: 0.2, a: 1}
+  errorColor: {r: 1, g: 0.15, b: 0.1, a: 1}
+  successColor: {r: 0.2, g: 1, b: 0.35, a: 1}
+  emissionIntensity: 3
+  audioSource: {fileID: 0}
+  toneClip: {fileID: 0}
+--- !u!114 &822766388935251791
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4786022199948953686}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 115f1a2a50d85cd4b9d6dad4c95622be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.XR.Interaction.Toolkit::UnityEngine.XR.Interaction.Toolkit.Filtering.XRPokeFilter
+  m_Interactable: {fileID: 1919161810375606086}
+  m_PokeCollider: {fileID: 5953606562487974654}
+  m_PokeConfiguration:
+    m_UseConstant: 1
+    m_ConstantValue:
+      m_PokeDirection: 3
+      m_InteractionDepthOffset: 0
+      m_EnablePokeAngleThreshold: 1
+      m_PokeAngleThreshold: 45
+    m_Variable: {fileID: 0}
+--- !u!23 &5359375984927843437 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 501360161495274263, guid: f9df1eccc7f56cd48a61ab34638529d0, type: 3}
+  m_PrefabInstance: {fileID: 5518427390291179386}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &6169788747371511865 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -7419088485922932925, guid: f9df1eccc7f56cd48a61ab34638529d0, type: 3}
+  m_PrefabInstance: {fileID: 5518427390291179386}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1984480608509437036
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6169788747371511865}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.003, y: 0.003224907, z: 0.0058164448}
+  m_Center: {x: 0.0000000151922, y: 0, z: -0.00000023876783}
+--- !u!114 &2927981542016382618
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6169788747371511865}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a35f6cfbfba9b548aaa00d52cfe8a50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.XR.Interaction.Toolkit::UnityEngine.XR.Interaction.Toolkit.Interactables.XRSimpleInteractable
+  m_InteractionManager: {fileID: 0}
+  m_Colliders: []
+  m_InteractionLayers:
+    m_Bits: 1
+  m_DistanceCalculationMode: 1
+  m_SelectMode: 0
+  m_FocusMode: 1
+  m_CustomReticle: {fileID: 0}
+  m_AllowGazeInteraction: 0
+  m_AllowGazeSelect: 0
+  m_OverrideGazeTimeToSelect: 0
+  m_GazeTimeToSelect: 0.5
+  m_OverrideTimeToAutoDeselectGaze: 0
+  m_TimeToAutoDeselectGaze: 3
+  m_AllowGazeAssistance: 0
+  m_FirstHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FirstSelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastSelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FirstFocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastFocusExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Activated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Deactivated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_StartingHoverFilters: []
+  m_StartingSelectFilters: []
+  m_StartingInteractionStrengthFilters: []
+  m_AutoFindParentInteractableInHierarchy: 0
+  m_ParentInteractableObject: {fileID: 0}
+--- !u!114 &4746278991237386123
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6169788747371511865}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 091e13eba41e49a4f956b0d77d5eb857, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SimonSaysbuttons
+  interactable: {fileID: 2927981542016382618}
+  targetRenderer: {fileID: 3420842093249782421}
+  materialIndex: 0
+  litColor: {r: 1, g: 0.85, b: 0.2, a: 1}
+  errorColor: {r: 1, g: 0.15, b: 0.1, a: 1}
+  successColor: {r: 0.2, g: 1, b: 0.35, a: 1}
+  emissionIntensity: 3
+  audioSource: {fileID: 0}
+  toneClip: {fileID: 0}
+--- !u!114 &5170062366477452191
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6169788747371511865}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 115f1a2a50d85cd4b9d6dad4c95622be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.XR.Interaction.Toolkit::UnityEngine.XR.Interaction.Toolkit.Filtering.XRPokeFilter
+  m_Interactable: {fileID: 2927981542016382618}
+  m_PokeCollider: {fileID: 1984480608509437036}
+  m_PokeConfiguration:
+    m_UseConstant: 1
+    m_ConstantValue:
+      m_PokeDirection: 3
+      m_InteractionDepthOffset: 0
+      m_EnablePokeAngleThreshold: 1
+      m_PokeAngleThreshold: 45
+    m_Variable: {fileID: 0}
+--- !u!1 &6902999032394738440 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1394151550721956978, guid: f9df1eccc7f56cd48a61ab34638529d0, type: 3}
+  m_PrefabInstance: {fileID: 5518427390291179386}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &5525350365308800916
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6902999032394738440}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.0030000003, y: 0.0032249065, z: 0.005816445}
+  m_Center: {x: 0, y: 2.3283067e-10, z: 0.00000023841858}
+--- !u!114 &2335870324161161387
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6902999032394738440}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a35f6cfbfba9b548aaa00d52cfe8a50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.XR.Interaction.Toolkit::UnityEngine.XR.Interaction.Toolkit.Interactables.XRSimpleInteractable
+  m_InteractionManager: {fileID: 0}
+  m_Colliders: []
+  m_InteractionLayers:
+    m_Bits: 1
+  m_DistanceCalculationMode: 1
+  m_SelectMode: 0
+  m_FocusMode: 1
+  m_CustomReticle: {fileID: 0}
+  m_AllowGazeInteraction: 0
+  m_AllowGazeSelect: 0
+  m_OverrideGazeTimeToSelect: 0
+  m_GazeTimeToSelect: 0.5
+  m_OverrideTimeToAutoDeselectGaze: 0
+  m_TimeToAutoDeselectGaze: 3
+  m_AllowGazeAssistance: 0
+  m_FirstHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FirstSelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastSelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FirstFocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastFocusExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Activated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Deactivated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_StartingHoverFilters: []
+  m_StartingSelectFilters: []
+  m_StartingInteractionStrengthFilters: []
+  m_AutoFindParentInteractableInHierarchy: 0
+  m_ParentInteractableObject: {fileID: 0}
+--- !u!114 &3668486041244688312
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6902999032394738440}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 091e13eba41e49a4f956b0d77d5eb857, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SimonSaysbuttons
+  interactable: {fileID: 2335870324161161387}
+  targetRenderer: {fileID: 8378372618989295887}
+  materialIndex: 0
+  litColor: {r: 1, g: 0.85, b: 0.2, a: 1}
+  errorColor: {r: 1, g: 0.15, b: 0.1, a: 1}
+  successColor: {r: 0.2, g: 1, b: 0.35, a: 1}
+  emissionIntensity: 3
+  audioSource: {fileID: 0}
+  toneClip: {fileID: 0}
+--- !u!114 &4804367980886308407
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6902999032394738440}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 115f1a2a50d85cd4b9d6dad4c95622be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.XR.Interaction.Toolkit::UnityEngine.XR.Interaction.Toolkit.Filtering.XRPokeFilter
+  m_Interactable: {fileID: 2335870324161161387}
+  m_PokeCollider: {fileID: 5525350365308800916}
+  m_PokeConfiguration:
+    m_UseConstant: 1
+    m_ConstantValue:
+      m_PokeDirection: 3
+      m_InteractionDepthOffset: 0
+      m_EnablePokeAngleThreshold: 1
+      m_PokeAngleThreshold: 45
+    m_Variable: {fileID: 0}
+--- !u!1 &7105366808348788494 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3318643913218879604, guid: f9df1eccc7f56cd48a61ab34638529d0, type: 3}
+  m_PrefabInstance: {fileID: 5518427390291179386}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &4385757420060226624
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7105366808348788494}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.003, y: 0.0032249065, z: 0.0058164448}
+  m_Center: {x: 0.000000014901161, y: -2.3283067e-10, z: -1.1641532e-10}
+--- !u!114 &3889007341169873882
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7105366808348788494}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a35f6cfbfba9b548aaa00d52cfe8a50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.XR.Interaction.Toolkit::UnityEngine.XR.Interaction.Toolkit.Interactables.XRSimpleInteractable
+  m_InteractionManager: {fileID: 0}
+  m_Colliders: []
+  m_InteractionLayers:
+    m_Bits: 1
+  m_DistanceCalculationMode: 1
+  m_SelectMode: 0
+  m_FocusMode: 1
+  m_CustomReticle: {fileID: 0}
+  m_AllowGazeInteraction: 0
+  m_AllowGazeSelect: 0
+  m_OverrideGazeTimeToSelect: 0
+  m_GazeTimeToSelect: 0.5
+  m_OverrideTimeToAutoDeselectGaze: 0
+  m_TimeToAutoDeselectGaze: 3
+  m_AllowGazeAssistance: 0
+  m_FirstHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FirstSelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastSelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FirstFocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastFocusExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Activated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Deactivated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_StartingHoverFilters: []
+  m_StartingSelectFilters: []
+  m_StartingInteractionStrengthFilters: []
+  m_AutoFindParentInteractableInHierarchy: 0
+  m_ParentInteractableObject: {fileID: 0}
+--- !u!114 &4423438482072149252
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7105366808348788494}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 091e13eba41e49a4f956b0d77d5eb857, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SimonSaysbuttons
+  interactable: {fileID: 3889007341169873882}
+  targetRenderer: {fileID: 7331723275294609976}
+  materialIndex: 0
+  litColor: {r: 1, g: 0.85, b: 0.2, a: 1}
+  errorColor: {r: 1, g: 0.15, b: 0.1, a: 1}
+  successColor: {r: 0.2, g: 1, b: 0.35, a: 1}
+  emissionIntensity: 3
+  audioSource: {fileID: 0}
+  toneClip: {fileID: 0}
+--- !u!114 &510961038249134
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7105366808348788494}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 115f1a2a50d85cd4b9d6dad4c95622be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.XR.Interaction.Toolkit::UnityEngine.XR.Interaction.Toolkit.Filtering.XRPokeFilter
+  m_Interactable: {fileID: 3889007341169873882}
+  m_PokeCollider: {fileID: 4385757420060226624}
+  m_PokeConfiguration:
+    m_UseConstant: 1
+    m_ConstantValue:
+      m_PokeDirection: 3
+      m_InteractionDepthOffset: 0
+      m_EnablePokeAngleThreshold: 1
+      m_PokeAngleThreshold: 45
+    m_Variable: {fileID: 0}
+--- !u!23 &7331723275294609976 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 2966437293817161026, guid: f9df1eccc7f56cd48a61ab34638529d0, type: 3}
+  m_PrefabInstance: {fileID: 5518427390291179386}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &8378372618989295887 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -5129439478626111883, guid: f9df1eccc7f56cd48a61ab34638529d0, type: 3}
+  m_PrefabInstance: {fileID: 5518427390291179386}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &8974776445457849678 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 3465990338061642292, guid: f9df1eccc7f56cd48a61ab34638529d0, type: 3}
+  m_PrefabInstance: {fileID: 5518427390291179386}
+  m_PrefabAsset: {fileID: 0}
