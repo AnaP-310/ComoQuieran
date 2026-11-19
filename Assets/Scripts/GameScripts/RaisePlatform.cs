@@ -10,8 +10,10 @@ public class RaisePlatform : MonoBehaviour
     private bool reverseDirection = false;
     private int position = 0;
 
+    //chechamos si esta en la posicion de abajo, si si cambiamos la posicion e iniciamos la corutina pa mover la plataforma
     public void Raise()
     {
+        
         if (position == 0)
         {
             position = 1;
@@ -21,6 +23,7 @@ public class RaisePlatform : MonoBehaviour
         
     }
 
+    //chechamos si esta en la posicion de arriba, si si cambiamos la posicion e iniciamos la corutina pa mover la plataforma
     public void Lower()
     {
         if (position == 1)
@@ -46,7 +49,7 @@ public class RaisePlatform : MonoBehaviour
         while (elapsedTime < duration)
         {
             elapsedTime += Time.deltaTime;
-
+            //move smoothtly entre la posicion de inicio y la final, elapsed time/duration se usa para obtener un valor entre 1 y 0 ya que el lerp clampea el valor entre 1 y 0
             platform.transform.position = Vector3.Lerp(startPosition, targetPosition, elapsedTime/duration);
 
             yield return null;

@@ -6,6 +6,7 @@ TagManager:
   tags:
   - LeftRotation
   - RightRotation
+  - PlayerHand
   layers:
   - Default
   - TransparentFX

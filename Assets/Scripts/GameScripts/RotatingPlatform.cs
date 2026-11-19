@@ -10,10 +10,13 @@ public class RotatingPlatform : MonoBehaviour
     private bool isRotating = false;
     private bool reverseDirection = false;
     private int position = 1;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
 
+    
     private void OnTriggerEnter(Collider other)
     {
+        //imaginense que las posiciones son 0, 1, 2, asi que la posicion del centro es 1, la izquierda es 0 y la derecha es 2
+
+        //chechamos si la paltaforma NO esta en la posicion mas izquierda
         if (other.CompareTag("LeftRotation"))
         {
             if (position >0)
@@ -22,6 +25,7 @@ public class RotatingPlatform : MonoBehaviour
                 TriggerRotation();
             }   
         }
+        //chechamos si la paltaforma NO esta en la posicion mas derecha
         if (other.CompareTag("RightRotation"))
         {
             if (position < 2)
@@ -47,6 +51,7 @@ public class RotatingPlatform : MonoBehaviour
         float rotatedSoFar = 0f;
         float degreesPerSecond = degrees / duration;
 
+        //operador ternario para decidir la direccion y encima ayuda a cambiar la posicion yippe que bonito
         int directionMultiplier = reverseDirection ? -1 : 1;
         position += directionMultiplier;
 
@@ -54,7 +59,7 @@ public class RotatingPlatform : MonoBehaviour
         {
             float step = degreesPerSecond * Time.deltaTime;
 
-            // Prevent overshooting the target angle
+            //pa evitar overshooting
             if (rotatedSoFar + step > degrees)
             {
                 step = degrees - rotatedSoFar;
