@@ -29,36 +29,35 @@ public class Timer : MonoBehaviour
         if(timePassed > 5)
         {
             //Mala programacion, increiblemente estupido y bien brute force yo lo se. Es importante que el rango sea la cantidad de bools que tenemos en el SO de minigame triggers mas 1
-            randomNumber = Random.Range(0, 1);
-            if (randomNumber == 9)
+            randomNumber = Random.Range(0, 6);
+
+            switch (randomNumber)
             {
-                MinigameTriggers.slappyHand = true;
-                Debug.Log(MinigameTriggers.slappyHand + " Slappy hand");
-            }
-            else if (randomNumber == 1)
-            {
-                MinigameTriggers.fuseBox = true;
-                Debug.Log(MinigameTriggers.fuseBox + " fuseBox");
-            }
-            else if (randomNumber == 2)
-            {
-                MinigameTriggers.valveRotate = true;
-                Debug.Log(MinigameTriggers.valveRotate + " valveRotate");
-            }
-            else if (randomNumber == 3)
-            {
-                MinigameTriggers.pushLever = true;
-                Debug.Log(MinigameTriggers.pushLever + " pushLever");
-            }
-            else if (randomNumber == 4)
-            {
-                MinigameTriggers.powerButton = true;
-                Debug.Log(MinigameTriggers.powerButton + " powerButton");
-            }
-            else if (randomNumber == 5)
-            {
-                //lucky boi, nada se activo, descansa un poco
-                return;
+                case 0:
+                    MinigameTriggers.slappyHand = true;
+                    Debug.Log(MinigameTriggers.slappyHand + " Slappy hand");
+                    break;
+                case 1:
+                    MinigameTriggers.fuseBox = true;
+                    Debug.Log(MinigameTriggers.fuseBox + " fuseBox");
+                    break;
+                case 2:
+                    MinigameTriggers.valveRotate = true;
+                    Debug.Log(MinigameTriggers.valveRotate + " valveRotate");
+                    break;
+                case 3:
+                    MinigameTriggers.pushLever = true;
+                    Debug.Log(MinigameTriggers.pushLever + " pushLever");
+                    break;
+                case 4:
+                    MinigameTriggers.powerButton = true;
+                    Debug.Log(MinigameTriggers.powerButton + " powerButton");
+                    break;
+                case 5:
+                    //lucky boi, nada se activo, descansa un poco
+                    break;
+                default:
+                    break;
             }
 
             timePassed -= 5;
