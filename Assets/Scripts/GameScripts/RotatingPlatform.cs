@@ -8,7 +8,7 @@ public class RotatingPlatform : MonoBehaviour
     public float degrees;
     public float duration;
     private bool isRotating = false;
-    public bool reverseDirection = false;
+    private bool reverseDirection = false;
     private int position = 1;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
 
@@ -36,12 +36,12 @@ public class RotatingPlatform : MonoBehaviour
     {
         if (!isRotating)
         {
-            StartCoroutine(RotateSmoothly());
+            StartCoroutine(Rotate());
         }
     }
 
 
-    IEnumerator RotateSmoothly()
+    private IEnumerator Rotate()
     {
         isRotating = true;
         float rotatedSoFar = 0f;
