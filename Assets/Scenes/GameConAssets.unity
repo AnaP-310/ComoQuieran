@@ -3639,6 +3639,11 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.003, y: 0.003224906, z: 0.0058164434}
   m_Center: {x: 2.910383e-10, y: 0, z: -3.4924588e-10}
+--- !u!1 &977019765 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1717954561962503725, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
+  m_PrefabInstance: {fileID: 2070163203}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1002034529
 GameObject:
   m_ObjectHideFlags: 0
@@ -4024,9 +4029,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d1b27e186ce9a047b04453af70a708a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Timer
-  time: 120
+  time: 10
   triggers: {fileID: 11400000, guid: a61546332b0292246a1e473ceea105e4, type: 2}
   timeBetweenGames: 5
+  player: {fileID: 977019765}
   music: {fileID: 8300000, guid: 1f0fac495adcc6d44b65bd6c3d4871b8, type: 3}
   musicVolume: 0.65
   ambiance: {fileID: 8300000, guid: 38d7df07391304943a0d7e0d5047dc20, type: 3}
@@ -6727,9 +6733,17 @@ PrefabInstance:
       propertyPath: m_BackGroundColor.r
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1178791450436251564, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
+      propertyPath: m_RequestedTrackingOriginMode
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 1717954561962503725, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
       propertyPath: m_Name
       value: XR Origin (XR Rig)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1717954561962503725, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1717954561962503726, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6737,7 +6751,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1717954561962503726, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.116
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 1717954561962503726, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
       propertyPath: m_LocalPosition.z
@@ -7138,7 +7152,7 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 8455081332966815775, guid: 67cd69c658b77bb4fac1836d4037af49, type: 3}
-      insertIndex: -1
+      insertIndex: 0
       addedObject: {fileID: 2070163204}
     - targetCorrespondingSourceObject: {fileID: 8455081332966815775, guid: 67cd69c658b77bb4fac1836d4037af49, type: 3}
       insertIndex: -1

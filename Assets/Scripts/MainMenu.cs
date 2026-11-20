@@ -1,4 +1,4 @@
-
+using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -15,6 +15,12 @@ public class MainMenu : MonoBehaviour
             return;
         }
 
+        StartCoroutine(ChangeScene());
+    }
+
+    IEnumerator ChangeScene()
+    {
+        yield return new WaitForSeconds(0.1f);
         SceneManager.LoadScene(nombreEscena);
     }
 
@@ -23,5 +29,8 @@ public class MainMenu : MonoBehaviour
         Debug.Log("Cerrando juego...");
 
         Application.Quit();
+#if UNITY_EDITOR
+        UnityEditor.EditorApplication.isPlaying = false;
+#endif
     }
 }

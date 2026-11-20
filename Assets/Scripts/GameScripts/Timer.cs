@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Timer : MonoBehaviour
 {
@@ -10,6 +11,7 @@ public class Timer : MonoBehaviour
     public float timeBetweenGames = 10;
     private float actualTimeBetweenGames;
     private int gamesLeft = 0;
+    public GameObject player;
 
 
     [Header("Ambiente")]
@@ -22,6 +24,7 @@ public class Timer : MonoBehaviour
 
     private void Start()
     {
+        player.SetActive(true);
         actualTimeBetweenGames = timeBetweenGames;
         // Los AudioSource se crean aqui, no hay que ponerlos a mano en la escena.
         PlayLoop(music, musicVolume);
@@ -147,6 +150,14 @@ public class Timer : MonoBehaviour
             gamesLeft += 1;
         }
 
+        if (gamesLeft > 3)
+        {
+            SceneManager.LoadScene("Lose");
+        }
+        else
+        {
+            SceneManager.LoadScene("Win");
+        }
 
         /*triggers.slappyHand = false;
         triggers.fuseBox =false;

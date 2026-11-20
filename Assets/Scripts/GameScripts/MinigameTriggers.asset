@@ -15,6 +15,6 @@ MonoBehaviour:
   slappyHand: 0
   fuseBox: 0
   valveRotate: 0
-  pushLever: 0
-  powerButton: 0
-  simonSays: 0
+  pushLever: 1
+  powerButton: 1
+  simonSays: 1
