@@ -1,4 +1,5 @@
 using System.Collections;
+using Unity.VectorGraphics;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -21,7 +22,12 @@ public class MainMenu : MonoBehaviour
     IEnumerator ChangeScene()
     {
         yield return new WaitForSeconds(0.1f);
-        SceneManager.LoadScene(nombreEscena);
+
+        AsyncOperation asyncLoad = SceneManager.LoadSceneAsync(nombreEscena);
+        while (!asyncLoad.isDone)
+        {
+            yield return null;
+        }
     }
 
     public void Salir()
