@@ -7,6 +7,10 @@ public class Timer : MonoBehaviour
     private int randomNumber;
     private bool timerRunning = true;
     public MinigameTriggers triggers;
+    public float timeBetweenGames = 10;
+    private float actualTimeBetweenGames;
+    private int gamesLeft = 0;
+
 
     [Header("Ambiente")]
     [Tooltip("mechanist music: va en loop y mas fuerte que el ambiente.")]
@@ -18,6 +22,7 @@ public class Timer : MonoBehaviour
 
     private void Start()
     {
+        actualTimeBetweenGames = timeBetweenGames;
         // Los AudioSource se crean aqui, no hay que ponerlos a mano en la escena.
         PlayLoop(music, musicVolume);
         PlayLoop(ambiance, ambianceVolume);
@@ -56,8 +61,9 @@ public class Timer : MonoBehaviour
             OnTimerEnd();
         }
 
-        if(timePassed > 5)
+        if(timePassed > actualTimeBetweenGames)
         {
+            actualTimeBetweenGames = timeBetweenGames;
             //Mala programacion, increiblemente estupido y bien brute force yo lo se. Es importante que el rango sea la cantidad de bools que tenemos en el SO de minigame triggers mas 1
             randomNumber = Random.Range(0, 6);
 
@@ -103,24 +109,51 @@ public class Timer : MonoBehaviour
                     {
                         triggers.simonSays = true;
                         Debug.Log(triggers.simonSays + " simonSays");
+                        actualTimeBetweenGames = timeBetweenGames * 1.5f;
                     }
                     break;
                 default:
                     break;
             }
 
-            timePassed -= 5;
+            timePassed -= actualTimeBetweenGames;
         }
 
     }
     private void OnTimerEnd()
     {
-        triggers.slappyHand = false;
+        if (triggers.slappyHand)
+        {
+            gamesLeft += 1;
+        }
+        if (triggers.fuseBox)
+        {
+            gamesLeft += 1;
+        }
+        if (triggers.valveRotate)
+        {
+            gamesLeft += 1;
+        }
+        if (triggers.powerButton)
+        { 
+            gamesLeft += 1; 
+        }
+        if (triggers.pushLever)
+        {
+            gamesLeft += 1;
+        }
+        if (triggers.simonSays)
+        {
+            gamesLeft += 1;
+        }
+
+
+        /*triggers.slappyHand = false;
         triggers.fuseBox =false;
         triggers.valveRotate =false;
         triggers.pushLever =false;
         triggers.powerButton =false;
-        triggers.simonSays =false;
-        Debug.Log("Timer ended");
+        triggers.simonSays =false;*/
+        Debug.Log("Timer ended, games Left" + gamesLeft);
     }
 }
