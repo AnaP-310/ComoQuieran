@@ -149,7 +149,12 @@ public class Timer : MonoBehaviour
         {
             gamesLeft += 1;
         }
-
+        triggers.slappyHand = false;
+        triggers.fuseBox = false;
+        triggers.valveRotate = false;
+        triggers.pushLever = false;
+        triggers.powerButton = false;
+        triggers.simonSays = false;
         if (gamesLeft > 3)
         {
             SceneManager.LoadScene("Lose");
@@ -158,13 +163,5 @@ public class Timer : MonoBehaviour
         {
             SceneManager.LoadScene("Win");
         }
-
-        /*triggers.slappyHand = false;
-        triggers.fuseBox =false;
-        triggers.valveRotate =false;
-        triggers.pushLever =false;
-        triggers.powerButton =false;
-        triggers.simonSays =false;*/
-        Debug.Log("Timer ended, games Left" + gamesLeft);
     }
 }
