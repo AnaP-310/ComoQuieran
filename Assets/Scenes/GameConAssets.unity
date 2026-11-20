@@ -2352,6 +2352,7 @@ MonoBehaviour:
   joint: {fileID: 443345750}
   rotationValue: 0
   valveClip: {fileID: 8300000, guid: 8a99b8e32c0960445ac7acd6bde2d290, type: 3}
+  audioSource: {fileID: 0}
 --- !u!4 &493433035 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8455081332966815775, guid: 67cd69c658b77bb4fac1836d4037af49, type: 3}
@@ -2534,6 +2535,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PushLever
   Trigger: {fileID: 11400000, guid: a61546332b0292246a1e473ceea105e4, type: 2}
   leverClip: {fileID: 8300000, guid: d23cd01658a35df4181f7406748f311c, type: 3}
+  audioSource: {fileID: 0}
 --- !u!114 &631319857
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2784,6 +2786,34 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 679807672}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &701000001
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 160562826}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f0a1c3e7b9d4a2f8c6e0d1b2a3f4c5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clip: {fileID: 8300000, guid: 498435e2dd2e6244e9f592fa25c04a8d, type: 3}
+  audioSource: {fileID: 0}
+--- !u!114 &701000002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 112896224}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f0a1c3e7b9d4a2f8c6e0d1b2a3f4c5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clip: {fileID: 8300000, guid: 498435e2dd2e6244e9f592fa25c04a8d, type: 3}
+  audioSource: {fileID: 0}
 --- !u!1 &737681655
 GameObject:
   m_ObjectHideFlags: 0
@@ -3088,6 +3118,8 @@ MonoBehaviour:
   platform: {fileID: 73758808}
   distance: 5
   duration: 0.5
+  moveClip: {fileID: 8300000, guid: 93a64c0649c13d0478ff32c698d5b45f, type: 3}
+  audioSource: {fileID: 0}
 --- !u!114 &969064608
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3420,6 +3452,9 @@ MonoBehaviour:
   pressFlashDuration: 0.25
   repeatWhileWaiting: 1
   repeatAfter: 3
+  correctClip: {fileID: 8300000, guid: a465160dd420b3f429c24c7a60d49530, type: 3}
+  errorClip: {fileID: 8300000, guid: ff5c1bf070a93c14c97420c39eee7d6b, type: 3}
+  audioSource: {fileID: 0}
   debugLogs: 1
   debugKeyboardInput: 1
   onPuzzleStarted:
@@ -3437,8 +3472,6 @@ MonoBehaviour:
   onPuzzleSolved:
     m_PersistentCalls:
       m_Calls: []
-  correctClip: {fileID: 8300000, guid: a465160dd420b3f429c24c7a60d49530, type: 3}
-  errorClip: {fileID: 8300000, guid: ff5c1bf070a93c14c97420c39eee7d6b, type: 3}
 --- !u!1 &1133959683
 GameObject:
   m_ObjectHideFlags: 0
@@ -3786,6 +3819,8 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   fuseInClip: {fileID: 8300000, guid: 421c7a26be1a54f40854b4617ef83aae, type: 3}
+  ejectClip: {fileID: 0}
+  audioSource: {fileID: 0}
 --- !u!4 &1428746003 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4688186781205853302, guid: a84c490be5e3b704abf75d8560cf22a8, type: 3}
@@ -4017,6 +4052,8 @@ MonoBehaviour:
   socket: {fileID: 1465329541}
   SpawnPoint: {fileID: 406184112}
   fuse: {fileID: 1828030954}
+  ejectClip: {fileID: 0}
+  audioSource: {fileID: 0}
 --- !u!1 &1543696154 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7032234027019531248, guid: 91cf45283fc77a24abaaffbc032d81ac, type: 3}
@@ -4088,6 +4125,7 @@ MonoBehaviour:
   resetSpeed: 10
   followAngleThreshold: 90
   pressClip: {fileID: 8300000, guid: e499d56eb54c0cb47867d8e17f0376de, type: 3}
+  audioSource: {fileID: 0}
 --- !u!114 &1543696161
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4343,6 +4381,7 @@ MonoBehaviour:
   degrees: 45
   duration: 0.7
   rotateClip: {fileID: 8300000, guid: 93a64c0649c13d0478ff32c698d5b45f, type: 3}
+  audioSource: {fileID: 0}
 --- !u!1 &1587388980 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 202364687, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
@@ -4529,6 +4568,8 @@ MonoBehaviour:
   socket: {fileID: 1601870757}
   SpawnPoint: {fileID: 1264157774}
   fuse: {fileID: 291177518}
+  ejectClip: {fileID: 0}
+  audioSource: {fileID: 0}
 --- !u!1 &1647532941
 GameObject:
   m_ObjectHideFlags: 0
@@ -5065,6 +5106,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SlappyHand
   Trigger: {fileID: 11400000, guid: a61546332b0292246a1e473ceea105e4, type: 2}
   slapClip: {fileID: 8300000, guid: e240cfd253e49054c8097233bcf7f82b, type: 3}
+  audioSource: {fileID: 0}
 --- !u!1 &1792382435
 GameObject:
   m_ObjectHideFlags: 0
@@ -5658,6 +5700,7 @@ MonoBehaviour:
   degrees: 45
   duration: 0.3
   rotateClip: {fileID: 8300000, guid: 93a64c0649c13d0478ff32c698d5b45f, type: 3}
+  audioSource: {fileID: 0}
 --- !u!4 &1999194191 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5325986235947838807, guid: 91cf45283fc77a24abaaffbc032d81ac, type: 3}
@@ -6764,15 +6807,12 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 5660986077296616171, guid: d9a19e440d0a864408285e0216384fd8, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 701000001}
-    - targetCorrespondingSourceObject: {fileID: 1069265926792819136, guid: d9a19e440d0a864408285e0216384fd8, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 701000002}
     - targetCorrespondingSourceObject: {fileID: 5388069754278548221, guid: d9a19e440d0a864408285e0216384fd8, type: 3}
       insertIndex: -1
       addedObject: {fileID: 935686060}
+    - targetCorrespondingSourceObject: {fileID: 5660986077296616171, guid: d9a19e440d0a864408285e0216384fd8, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 701000001}
     - targetCorrespondingSourceObject: {fileID: 5660986077296616171, guid: d9a19e440d0a864408285e0216384fd8, type: 3}
       insertIndex: -1
       addedObject: {fileID: 160562831}
@@ -6782,6 +6822,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 5660986077296616171, guid: d9a19e440d0a864408285e0216384fd8, type: 3}
       insertIndex: -1
       addedObject: {fileID: 160562833}
+    - targetCorrespondingSourceObject: {fileID: 1069265926792819136, guid: d9a19e440d0a864408285e0216384fd8, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 701000002}
     - targetCorrespondingSourceObject: {fileID: 1069265926792819136, guid: d9a19e440d0a864408285e0216384fd8, type: 3}
       insertIndex: -1
       addedObject: {fileID: 112896229}
@@ -7087,6 +7130,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: valve
       objectReference: {fileID: 0}
+    - target: {fileID: 3125659158722162540, guid: e658e2d274cbe31458e2e921fbe6bbd0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7161,31 +7208,3 @@ SceneRoots:
   - {fileID: 1461827970}
   - {fileID: 4161763013658090082}
   - {fileID: 15236927}
---- !u!114 &701000001
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 160562826}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f0a1c3e7b9d4a2f8c6e0d1b2a3f4c5d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  clip: {fileID: 8300000, guid: 498435e2dd2e6244e9f592fa25c04a8d, type: 3}
-  audioSource: {fileID: 0}
---- !u!114 &701000002
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 112896224}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f0a1c3e7b9d4a2f8c6e0d1b2a3f4c5d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  clip: {fileID: 8300000, guid: 498435e2dd2e6244e9f592fa25c04a8d, type: 3}
-  audioSource: {fileID: 0}
