@@ -149,10 +149,10 @@ public class SimonSaysController : MonoBehaviour
 
     private void Update()
     {
-        if (trigger.simonSays)
-        {
-            puzzleActive = true;
-        }
+        // El Timer prende el bool del SO. Asignar puzzleActive a secas no arranca nada:
+        // solo lo detectaba CheckPuzzleActiveToggle, que no existe en un build.
+        if (trigger != null && trigger.simonSays && !puzzleActive)
+            SetPuzzleActive(true);
 
 #if UNITY_EDITOR
         CheckPuzzleActiveToggle();
@@ -171,6 +171,12 @@ public class SimonSaysController : MonoBehaviour
             return;
 
         puzzleActive = value;
+
+#if UNITY_EDITOR
+        // Para que el watcher del Inspector no vea como cambio a mano lo que hizo el codigo.
+        m_LastPuzzleActive = value;
+#endif
+
         ApplyActiveState();
     }
 
