@@ -8,6 +8,36 @@ public class Timer : MonoBehaviour
     private bool timerRunning = true;
     public MinigameTriggers triggers;
 
+    [Header("Ambiente")]
+    [Tooltip("mechanist music: va en loop y mas fuerte que el ambiente.")]
+    public AudioClip music;
+    [Range(0f, 1f)] public float musicVolume = 0.7f;
+    [Tooltip("ambiance sound: el soundscape de fondo, mas bajito.")]
+    public AudioClip ambiance;
+    [Range(0f, 1f)] public float ambianceVolume = 0.3f;
+
+    private void Start()
+    {
+        // Los AudioSource se crean aqui, no hay que ponerlos a mano en la escena.
+        PlayLoop(music, musicVolume);
+        PlayLoop(ambiance, ambianceVolume);
+    }
+
+    // Loop en 2D: se oye igual en toda la escena, sin importar donde este el jugador.
+    private void PlayLoop(AudioClip clip, float volume)
+    {
+        if (clip == null)
+            return;
+
+        AudioSource source = gameObject.AddComponent<AudioSource>();
+        source.clip = clip;
+        source.loop = true;
+        source.volume = volume;
+        source.spatialBlend = 0f;
+        source.playOnAwake = false;
+        source.Play();
+    }
+
     // Update is called once per frame
     void Update()
     {
@@ -72,7 +102,7 @@ public class Timer : MonoBehaviour
                     if (!triggers.simonSays)
                     {
                         triggers.simonSays = true;
-                        Debug.Log(triggers.powerButton + " powerButton");
+                        Debug.Log(triggers.simonSays + " simonSays");
                     }
                     break;
                 default:

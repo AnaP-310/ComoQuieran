@@ -6,6 +6,12 @@ public class RaisePlatform : MonoBehaviour
     public GameObject platform;
     public float distance;
     public float duration;
+    [Header("Sonido")]
+    [Tooltip("ButtonArrows, o el motor de la plataforma.")]
+    public AudioClip moveClip;
+    [Tooltip("Opcional. Vacio = el sonido se crea en el lugar de la plataforma.")]
+    public AudioSource audioSource;
+
     private bool isMoving = false;
     private bool reverseDirection = false;
     private int position = 0;
@@ -38,6 +44,7 @@ public class RaisePlatform : MonoBehaviour
     private IEnumerator Move()
     {
         isMoving = true;
+        Sfx.Play(moveClip, audioSource, platform.transform.position);
         int directionMultiplier = reverseDirection ? -1 : 1;
 
         Vector3 startPosition = platform.transform.position;

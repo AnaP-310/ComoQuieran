@@ -150,8 +150,8 @@ public class SimonSaysbuttons : MonoBehaviour
 
     private void PlayClip()
     {
-        if (audioSource != null && toneClip != null)
-            audioSource.PlayOneShot(toneClip);
+        // Sin AudioSource el sonido se crea en el lugar del boton.
+        Sfx.Play(toneClip, audioSource, transform.position);
     }
 
     // Guarda una instancia del material y su estado original.

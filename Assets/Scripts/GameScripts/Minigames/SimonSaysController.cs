@@ -69,6 +69,14 @@ public class SimonSaysController : MonoBehaviour
     [Tooltip("Segundos sin tocar nada antes de repetirla.")]
     [SerializeField, Min(0.5f)] private float repeatAfter = 3f;
 
+    [Header("Sonido")]
+    [Tooltip("SScorrect: al completar cada ronda.")]
+    public AudioClip correctClip;
+    [Tooltip("ButtonSSFail: al equivocarse.")]
+    public AudioClip errorClip;
+    [Tooltip("Opcional. Vacio = el sonido se crea en el lugar del panel.")]
+    public AudioSource audioSource;
+
     [Header("Debug / pruebas sin visor")]
     [Tooltip("Imprime la secuencia, los aciertos y los errores.")]
     [SerializeField] private bool debugLogs = true;
@@ -260,6 +268,7 @@ public class SimonSaysController : MonoBehaviour
             m_InputIndex = 0;
             SetInputEnabled(false);
             onMistakeMade?.Invoke();
+            Sfx.Play(errorClip, audioSource, transform.position);
             StopAllCoroutines();
             StartCoroutine(FeedbackAndReplayRoutine(success: false));
             return;
@@ -374,6 +383,7 @@ public class SimonSaysController : MonoBehaviour
         SetInputEnabled(false);
         Log($"Ronda {m_Round} completada.");
         onRoundCompleted?.Invoke(m_Round);
+        Sfx.Play(correctClip, audioSource, transform.position);
         StopAllCoroutines();
 
         if (m_Round >= TotalRounds)

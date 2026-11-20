@@ -1,4 +1,3 @@
-using UnityEditor.VersionControl;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -11,6 +10,14 @@ public class FuseBox : MonoBehaviour
     public Transform fuse2SpawnPoint;
 
     public UnityEvent EjectFuse;
+
+    [Header("Sonido")]
+    [Tooltip("fuse popin: al meter cada fusible.")]
+    public AudioClip fuseInClip;
+    [Tooltip("Opcional: al botar los fusibles cuando arranca el minijuego.")]
+    public AudioClip ejectClip;
+    [Tooltip("Opcional. Vacio = el sonido se crea en el lugar de la caja.")]
+    public AudioSource audioSource;
 
     private bool fuse1On;
     private bool fuse2On;
@@ -29,6 +36,7 @@ public class FuseBox : MonoBehaviour
         {
             CanReset = false;
             EjectFuse.Invoke();
+            Sfx.Play(ejectClip, audioSource, transform.position);
         }
 
         if (fuse1On && fuse2On)
@@ -43,9 +51,11 @@ public class FuseBox : MonoBehaviour
     public void Fuse1In()
     {
         fuse1On = true;
+        Sfx.Play(fuseInClip, audioSource, transform.position);
     }
     public void Fuse2In()
     {
         fuse2On = true;
+        Sfx.Play(fuseInClip, audioSource, transform.position);
     }
 }

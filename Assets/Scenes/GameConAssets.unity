@@ -526,7 +526,7 @@ MonoBehaviour:
   successColor: {r: 0.2, g: 1, b: 0.35, a: 1}
   emissionIntensity: 3
   audioSource: {fileID: 0}
-  toneClip: {fileID: 0}
+  toneClip: {fileID: 8300000, guid: 53b53b3607da31d4c9fabd98e2d49f03, type: 3}
 --- !u!114 &93912421
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -664,7 +664,7 @@ MonoBehaviour:
   successColor: {r: 0.2, g: 1, b: 0.35, a: 1}
   emissionIntensity: 3
   audioSource: {fileID: 0}
-  toneClip: {fileID: 0}
+  toneClip: {fileID: 8300000, guid: 53b53b3607da31d4c9fabd98e2d49f03, type: 3}
 --- !u!114 &93912425
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1228,7 +1228,7 @@ MonoBehaviour:
   successColor: {r: 0.2, g: 1, b: 0.35, a: 1}
   emissionIntensity: 3
   audioSource: {fileID: 0}
-  toneClip: {fileID: 0}
+  toneClip: {fileID: 8300000, guid: 53b53b3607da31d4c9fabd98e2d49f03, type: 3}
 --- !u!114 &197442157
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1869,7 +1869,7 @@ MonoBehaviour:
   successColor: {r: 0.2, g: 1, b: 0.35, a: 1}
   emissionIntensity: 3
   audioSource: {fileID: 0}
-  toneClip: {fileID: 0}
+  toneClip: {fileID: 8300000, guid: 53b53b3607da31d4c9fabd98e2d49f03, type: 3}
 --- !u!114 &393943599
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2351,6 +2351,7 @@ MonoBehaviour:
   trigger: {fileID: 11400000, guid: a61546332b0292246a1e473ceea105e4, type: 2}
   joint: {fileID: 443345750}
   rotationValue: 0
+  valveClip: {fileID: 8300000, guid: 8a99b8e32c0960445ac7acd6bde2d290, type: 3}
 --- !u!4 &493433035 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8455081332966815775, guid: 67cd69c658b77bb4fac1836d4037af49, type: 3}
@@ -2532,6 +2533,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PushLever
   Trigger: {fileID: 11400000, guid: a61546332b0292246a1e473ceea105e4, type: 2}
+  leverClip: {fileID: 8300000, guid: d23cd01658a35df4181f7406748f311c, type: 3}
 --- !u!114 &631319857
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2552,7 +2554,7 @@ MonoBehaviour:
   successColor: {r: 0.2, g: 1, b: 0.35, a: 1}
   emissionIntensity: 3
   audioSource: {fileID: 0}
-  toneClip: {fileID: 0}
+  toneClip: {fileID: 8300000, guid: 53b53b3607da31d4c9fabd98e2d49f03, type: 3}
 --- !u!114 &631319858
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3106,7 +3108,7 @@ MonoBehaviour:
   successColor: {r: 0.2, g: 1, b: 0.35, a: 1}
   emissionIntensity: 3
   audioSource: {fileID: 0}
-  toneClip: {fileID: 0}
+  toneClip: {fileID: 8300000, guid: 53b53b3607da31d4c9fabd98e2d49f03, type: 3}
 --- !u!114 &969064609
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3435,6 +3437,8 @@ MonoBehaviour:
   onPuzzleSolved:
     m_PersistentCalls:
       m_Calls: []
+  correctClip: {fileID: 8300000, guid: a465160dd420b3f429c24c7a60d49530, type: 3}
+  errorClip: {fileID: 8300000, guid: ff5c1bf070a93c14c97420c39eee7d6b, type: 3}
 --- !u!1 &1133959683
 GameObject:
   m_ObjectHideFlags: 0
@@ -3481,6 +3485,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Timer
   time: 60
   triggers: {fileID: 11400000, guid: a61546332b0292246a1e473ceea105e4, type: 2}
+  music: {fileID: 8300000, guid: 1f0fac495adcc6d44b65bd6c3d4871b8, type: 3}
+  musicVolume: 0.7
+  ambiance: {fileID: 8300000, guid: 38d7df07391304943a0d7e0d5047dc20, type: 3}
+  ambianceVolume: 0.3
 --- !u!1 &1258318550
 GameObject:
   m_ObjectHideFlags: 0
@@ -3777,6 +3785,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  fuseInClip: {fileID: 8300000, guid: 421c7a26be1a54f40854b4617ef83aae, type: 3}
 --- !u!4 &1428746003 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4688186781205853302, guid: a84c490be5e3b704abf75d8560cf22a8, type: 3}
@@ -4078,6 +4087,7 @@ MonoBehaviour:
   localAxis: {x: 0, y: 0, z: -1}
   resetSpeed: 10
   followAngleThreshold: 90
+  pressClip: {fileID: 8300000, guid: e499d56eb54c0cb47867d8e17f0376de, type: 3}
 --- !u!114 &1543696161
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4332,6 +4342,7 @@ MonoBehaviour:
   pivot: {fileID: 1133959684}
   degrees: 45
   duration: 0.7
+  rotateClip: {fileID: 8300000, guid: 93a64c0649c13d0478ff32c698d5b45f, type: 3}
 --- !u!1 &1587388980 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 202364687, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
@@ -4697,7 +4708,7 @@ MonoBehaviour:
   successColor: {r: 0.2, g: 1, b: 0.35, a: 1}
   emissionIntensity: 3
   audioSource: {fileID: 0}
-  toneClip: {fileID: 0}
+  toneClip: {fileID: 8300000, guid: 53b53b3607da31d4c9fabd98e2d49f03, type: 3}
 --- !u!114 &1737565928
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4835,7 +4846,7 @@ MonoBehaviour:
   successColor: {r: 0.2, g: 1, b: 0.35, a: 1}
   emissionIntensity: 3
   audioSource: {fileID: 0}
-  toneClip: {fileID: 0}
+  toneClip: {fileID: 8300000, guid: 53b53b3607da31d4c9fabd98e2d49f03, type: 3}
 --- !u!114 &1754172980
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5053,6 +5064,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SlappyHand
   Trigger: {fileID: 11400000, guid: a61546332b0292246a1e473ceea105e4, type: 2}
+  slapClip: {fileID: 8300000, guid: e240cfd253e49054c8097233bcf7f82b, type: 3}
 --- !u!1 &1792382435
 GameObject:
   m_ObjectHideFlags: 0
@@ -5645,6 +5657,7 @@ MonoBehaviour:
   pivot: {fileID: 0}
   degrees: 45
   duration: 0.3
+  rotateClip: {fileID: 8300000, guid: 93a64c0649c13d0478ff32c698d5b45f, type: 3}
 --- !u!4 &1999194191 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5325986235947838807, guid: 91cf45283fc77a24abaaffbc032d81ac, type: 3}
@@ -5701,7 +5714,7 @@ MonoBehaviour:
   successColor: {r: 0.2, g: 1, b: 0.35, a: 1}
   emissionIntensity: 3
   audioSource: {fileID: 0}
-  toneClip: {fileID: 0}
+  toneClip: {fileID: 8300000, guid: 53b53b3607da31d4c9fabd98e2d49f03, type: 3}
 --- !u!114 &2033426489
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6751,6 +6764,12 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5660986077296616171, guid: d9a19e440d0a864408285e0216384fd8, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 701000001}
+    - targetCorrespondingSourceObject: {fileID: 1069265926792819136, guid: d9a19e440d0a864408285e0216384fd8, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 701000002}
     - targetCorrespondingSourceObject: {fileID: 5388069754278548221, guid: d9a19e440d0a864408285e0216384fd8, type: 3}
       insertIndex: -1
       addedObject: {fileID: 935686060}
@@ -7142,3 +7161,31 @@ SceneRoots:
   - {fileID: 1461827970}
   - {fileID: 4161763013658090082}
   - {fileID: 15236927}
+--- !u!114 &701000001
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 160562826}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f0a1c3e7b9d4a2f8c6e0d1b2a3f4c5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clip: {fileID: 8300000, guid: 498435e2dd2e6244e9f592fa25c04a8d, type: 3}
+  audioSource: {fileID: 0}
+--- !u!114 &701000002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 112896224}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f0a1c3e7b9d4a2f8c6e0d1b2a3f4c5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clip: {fileID: 8300000, guid: 498435e2dd2e6244e9f592fa25c04a8d, type: 3}
+  audioSource: {fileID: 0}

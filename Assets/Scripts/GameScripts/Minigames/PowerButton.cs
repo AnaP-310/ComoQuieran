@@ -11,6 +11,12 @@ public class PowerButton : MonoBehaviour
     public float resetSpeed = 10;
     public float followAngleThreshold = 45;
 
+    [Header("Sonido")]
+    [Tooltip("powerbutton, o ButtonArrows si este es el de flechas.")]
+    public AudioClip pressClip;
+    [Tooltip("Opcional. Vacio = el sonido se crea en el lugar del boton.")]
+    public AudioSource audioSource;
+
     private bool freeze;
     private Vector3 initialLocalPosition;
 
@@ -63,6 +69,9 @@ public class PowerButton : MonoBehaviour
         if (hover.interactorObject is XRPokeInteractor)
         {
             freeze = true;
+
+            // Aqui es cuando el boton quedo hundido: ese es el click.
+            Sfx.Play(pressClip, audioSource, transform.position);
         }
     }
 

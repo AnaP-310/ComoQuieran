@@ -7,6 +7,12 @@ public class RotatingPlatform : MonoBehaviour
     public Transform pivot;
     public float degrees;
     public float duration;
+    [Header("Sonido")]
+    [Tooltip("ButtonArrows, LeverSlide o el motor del giro.")]
+    public AudioClip rotateClip;
+    [Tooltip("Opcional. Vacio = el sonido se crea en el lugar de la plataforma.")]
+    public AudioSource audioSource;
+
     private bool isRotating = false;
     private bool reverseDirection = false;
     private int position = 1;
@@ -48,6 +54,7 @@ public class RotatingPlatform : MonoBehaviour
     private IEnumerator Rotate()
     {
         isRotating = true;
+        Sfx.Play(rotateClip, audioSource, platform.transform.position);
         float rotatedSoFar = 0f;
         float degreesPerSecond = degrees / duration;
 
