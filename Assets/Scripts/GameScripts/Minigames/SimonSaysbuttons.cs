@@ -48,7 +48,7 @@ public class SimonSaysbuttons : MonoBehaviour
     // Posicion en la lista del controller; -1 si no fue registrado.
     public int Index { get; private set; } = -1;
 
-    private void Awake()
+    private void Start()
     {
         AutoAssignReferences();
         CacheMaterial();

@@ -3998,7 +3998,7 @@ MonoBehaviour:
   - {fileID: 1737565927}
   - {fileID: 197442156}
   - {fileID: 1754172979}
-  autoFindButtonsInChildren: 1
+  autoFindButtonsInChildren: 0
   useManualSequence: 0
   manualSequence: 00000000010000000200000003000000
   firstRoundLength: 1
@@ -4080,7 +4080,6 @@ MonoBehaviour:
   time: 120
   triggers: {fileID: 11400000, guid: a61546332b0292246a1e473ceea105e4, type: 2}
   timeBetweenGames: 5
-  player: {fileID: 977019765}
   music: {fileID: 8300000, guid: 1f0fac495adcc6d44b65bd6c3d4871b8, type: 3}
   musicVolume: 0.65
   ambiance: {fileID: 8300000, guid: 38d7df07391304943a0d7e0d5047dc20, type: 3}

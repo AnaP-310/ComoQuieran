@@ -117,7 +117,8 @@ public class SimonSaysController : MonoBehaviour
         }
     }
 
-    private void Awake()
+
+    private void Start()
     {
         AutoFindButtons();
 
@@ -136,10 +137,6 @@ public class SimonSaysController : MonoBehaviour
 #if UNITY_EDITOR
         m_LastPuzzleActive = puzzleActive;
 #endif
-    }
-
-    private void Start()
-    {
         if (buttons.Count == 0)
         {
             Debug.LogWarning($"[{nameof(SimonSaysController)}] No hay botones asignados: el puzzle no va a correr.", this);

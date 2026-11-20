@@ -12,8 +12,8 @@ PlayerSettings:
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: DefaultCompany
-  productName: VR_101
+  companyName: ComoQuieran
+  productName: The Machinist
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -147,6 +147,7 @@ PlayerSettings:
   bundleVersion: 0.1.0
   preloadedAssets:
   - {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+  - {fileID: 11400000, guid: 1479a4f0769f79d4f8ed53a58df71741, type: 2}
   - {fileID: -5952486323606408911, guid: 31171d5b6082bce4794b14550969b242, type: 2}
   - {fileID: 2617179926612379783, guid: 639efadac40afb643aeb713e6ddafb80, type: 2}
   metroInputSource: 0
@@ -856,8 +857,8 @@ PlayerSettings:
   editorAssembliesCompatibilityLevel: 1
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: VR_101
-  metroPackageVersion: 
+  metroPackageName: VR101
+  metroPackageVersion: 1.0.0.0
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
@@ -865,7 +866,7 @@ PlayerSettings:
   metroCertificateNotAfter: 0000000000000000
   metroApplicationDescription: VR_101
   wsaImages: {}
-  metroTileShortName: 
+  metroTileShortName: VR_101
   metroTileShowName: 0
   metroMediumTileShowName: 0
   metroLargeTileShowName: 0

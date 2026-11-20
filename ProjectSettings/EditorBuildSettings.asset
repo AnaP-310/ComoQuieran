@@ -9,24 +9,25 @@ EditorBuildSettings:
     path: Assets/Scenes/Hands_Reference.unity
     guid: fd066a7f4b2e1df4ba316a4cf6433cd9
   - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: f80838c11879b48498d7d8e8084f2696
+  - enabled: 1
     path: Assets/Scenes/GameConAssets.unity
     guid: cf1d4334775316b4d8baa8cbf164df33
-  - enabled: 0
-    path: Assets/Scenes/Prueba.unity
-    guid: 9cc40b06a5345ca479e61990655aae5a
   - enabled: 1
     path: Assets/Scenes/Credits.unity
     guid: 1a6cac62e75624443835f12802a0fae2
   - enabled: 1
-    path: Assets/Scenes/MainMenu.unity
-    guid: f80838c11879b48498d7d8e8084f2696
+    path: Assets/Scenes/Lose.unity
+    guid: 1968af1264b8a5144b3f61326fdcb9f2
   - enabled: 1
     path: Assets/Scenes/Win.unity
     guid: 0cf7a94ac96c0b347ac46b650f9ab4ad
-  - enabled: 1
-    path: Assets/Scenes/Lose.unity
-    guid: 1968af1264b8a5144b3f61326fdcb9f2
+  - enabled: 0
+    path: Assets/Scenes/Prueba.unity
+    guid: 9cc40b06a5345ca479e61990655aae5a
   m_configObjects:
+    com.unity.input.settings: {fileID: 11400000, guid: 1479a4f0769f79d4f8ed53a58df71741, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
     com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 30cee755f0d60e647ad8ed3473aed860, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 31171d5b6082bce4794b14550969b242, type: 2}

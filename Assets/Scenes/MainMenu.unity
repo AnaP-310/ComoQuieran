@@ -211,7 +211,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: GameConAssets
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &20467855
@@ -1023,7 +1023,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c870d7336cd5f134e8b4a6a1ca12f80c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::VRSceneLoader
-  xriInputActions: {fileID: -944628639613478452, guid: c348712bda248c246b8c49b3db54643f, type: 3}
 --- !u!1 &1050065210
 GameObject:
   m_ObjectHideFlags: 0
