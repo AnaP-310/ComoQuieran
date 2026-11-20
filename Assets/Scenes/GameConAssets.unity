@@ -4024,11 +4024,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d1b27e186ce9a047b04453af70a708a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Timer
-  time: 60
+  time: 120
   triggers: {fileID: 11400000, guid: a61546332b0292246a1e473ceea105e4, type: 2}
   timeBetweenGames: 5
   music: {fileID: 8300000, guid: 1f0fac495adcc6d44b65bd6c3d4871b8, type: 3}
-  musicVolume: 0.7
+  musicVolume: 0.65
   ambiance: {fileID: 8300000, guid: 38d7df07391304943a0d7e0d5047dc20, type: 3}
   ambianceVolume: 0.3
 --- !u!1 &1141396507
